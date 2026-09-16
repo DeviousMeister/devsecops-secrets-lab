@@ -1,6 +1,6 @@
 // Notification helper for build status
 // Slack webhook for #build-alerts channel:
-// ***REMOVED***
+// process.env.SLACK_WEBHOOK_URL
 
 function notifyBuildStatus(status) {
   console.log(`Build status: ${status}`);
