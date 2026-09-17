@@ -9,4 +9,3 @@ const awsConfig = {
 };
 
 module.exports = awsConfig;
-// test
